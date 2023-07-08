@@ -2,8 +2,8 @@ const area = document.getElementById('area');
 const cell = document.getElementsByClassName('cell');
 const currentPlayer = document.getElementById('curPlyr');
 
-const player = 'x';
-const stat = {
+let player = 'x';
+let stat = {
     'x': 0,
     'o': 0,
     'd': 0
